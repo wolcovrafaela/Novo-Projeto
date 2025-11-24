@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFDEE2;
+    color: #70020f;
+    font-family:  "Carrois Gothic", sans-serif;
+    font-weight: 400px;
+}
+
+header {
+    padding: 30px;
+    background-color: #3e2723;
+    color: #f4c9d6;
+    text-align: center;
+}
+
+.sobre-projeto{
+    margin: 20px;
+    padding: 5px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px;
+}
+
+.Gatinho{
+    flex: 0 0 30%; 
+    max-width: 300px;
+    text-align: center;
+}
+
+.botao-adotar{
+    background-color: #3e2723;
+    color: #f4c9d6;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 25px;
+    border: 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card{
+    width: 250px;
+    background-color: rgb(230, 148, 198);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px #70020f;
+}
+
+.card-cabec{
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-cabec-gatinho{
+    margin-top: 0;
+    margin-bottom: 100px; 
+    font-size: 24px;
+    color: #333;
+}
+
+.card-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-corpo{
+    background-color: #f4c9d6;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.card-corpo-gatinho {
+    flex-grow: 1; 
+    padding: 15px;
+    text-align: justify;
+}
+
+.card-img-gatinho {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-rodape{
+    padding: 10px 15px;
+    background-color: rgb(230, 148, 198);
+    text-align: center;
+}
+
+.card-rodape a{
+    color:#70020f;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #3e2723;
+    color: #f4c9d6;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    /* Cor de fundo marrom escuro que aparece na sua imagem */
+    background-color: #6d4c41; 
+    /* Garante que o texto seja legível no fundo escuro */
+    color: #fff; 
+    /* Adiciona espaço interno em cima e embaixo para o rodapé "ficar certinho" */
+    padding: 20px 0; 
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+/* Garante o espaçamento entre as linhas do rodapé */
+footer p {
+    margin: 5px 0;
+}
+
+.container-gatinho {
+    display: flex;
+    border-radius: 8px;
+    gap: 30px; 
+    align-items: flex-start;
+    max-width: 1000px; 
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: #fce4ec;
+    box-shadow: 0px 0px 10px #70020f;
+}
+
+
+.bloco-texto-gato h2 { 
+    margin-top: 0;
+    margin-bottom: 20px; 
+}
