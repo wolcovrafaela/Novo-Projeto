@@ -20,6 +20,13 @@ header {
     text-align: center;
 }
 
+.icon_titulo{
+    height: 1.2em;
+    width: 1.2em;  
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
 .sobre-projeto{
     margin: 20px;
     padding: 5px;
